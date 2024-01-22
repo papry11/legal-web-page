@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,8 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                "main-color":"#B68C5A",
+                "text-color":"#707070",
               }
             }
           }
@@ -31,7 +32,25 @@
     </style>
 </head>
 <body class="font-EB-Garamond">
-    <header></header>
+  <!-- header start -->
+    <header class="py-8">
+      <div class="container mx-auto capitalize ">
+        <nav class="flex justify-around">
+            <img src="images/logo2.png" alt="">
+          <div class=" flex justify-center text-text-color mt-3 space-x-5 text-lg font-semibold lg:flex md:flex sm:hidden">
+            <a href="#">home</a>
+            <a href="#">services</a>
+            <a href="#">cases</a>
+            <a href="#">blog</a>
+            <a href="#">contact us</a>
+          </div>
+          <div class="btn-div">
+            <button class="btn bg-main-color capitalize text-lg text-white">free consultation</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+  <!-- header end -->
     <main></main>
     <footer></footer>
 </body>
